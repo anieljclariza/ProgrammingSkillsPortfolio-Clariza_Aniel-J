@@ -1,7 +1,7 @@
 #First I have defined a variable to place the input of the user.
 user_input = input("Enter password: ")
 
-#Then I have made an input_count variable to monitor how many attemps the user has done.
+#Then I have made an input_count variable to count how many attempts the user has done.
 input_count = 0
 
 #Next I used a while loop wherein as long as the input the user has typed is incorrect, the loop will continue, the input_count will be increased by 1 every loop, and if the input_count reached 5(When the user inputted incorrectly 5 times)
@@ -22,5 +22,7 @@ while user_input != "12345":
     #Continues running the loop while input_count is less than 5.
     else:
         user_input = input("Enter password: ")
+
+#If the user has inputted the correct password, it will print this.
 else:
     print("Access granted.")
