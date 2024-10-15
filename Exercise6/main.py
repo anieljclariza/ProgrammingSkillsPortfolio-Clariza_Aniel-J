@@ -19,7 +19,7 @@ while user_input != "12345":
         print("You have entered the password incorrectly 5 times. The authorities have been informed of this activity.")
         break
 
-    #
+    #Continues running the loop while input_count is less than 5.
     else:
         user_input = input("Enter password: ")
 else:
