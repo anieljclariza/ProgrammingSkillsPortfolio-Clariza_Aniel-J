@@ -1,2 +1,9 @@
 import turtle
-turtle.forward(1000)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.mainloop()
