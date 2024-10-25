@@ -1,3 +1,4 @@
+# Here I defined the "names" list.
 names = ["Jake",
          "Zac",
          "Ian",
@@ -5,5 +6,8 @@ names = ["Jake",
          "Sam",
          "Dave"]
 
+# Here I defined "user_input" variable to store the user input.
 user_input = input("Name?: ")
-print(names.index(user_input))
+
+# Here I print first the input of the user(name), then the index of the name inputed by the user.
+print(user_input, "is at Index", names.index(user_input))

@@ -13,8 +13,9 @@ months = {"1":"31",
           "12":"31"
           }
 
-# Variable "user_input" is created to store the inputs of the user.
+# Variable "user_input" is created to store the input of the user.
 user_input = input("Input month number: ")
+
 # If-else statement that only runs when the user inputs "2" into the terminal. This code asks if February is leap year or not and displays the respective outputs according to the answer of the user.
 if user_input == "2":
     user_input2 = input("Leap year?(Y or N): ")

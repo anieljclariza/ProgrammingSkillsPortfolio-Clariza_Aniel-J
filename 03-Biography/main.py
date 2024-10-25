@@ -10,5 +10,3 @@ biography = {
 # This loop is used to go through and print the key-value pairs in the dictionary above. Variables x and y will be used for the key and the value respectively.
 for x, y in biography.items():
     print(x, y)
-
-
