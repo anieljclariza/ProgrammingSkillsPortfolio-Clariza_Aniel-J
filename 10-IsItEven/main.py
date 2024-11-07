@@ -6,9 +6,9 @@ def main():
 #Here I defined the checker() function that accepts "number" as arugument and checks if it is "even" or "odd" and prints the result.
 def checker(number):
     if number % 2 == 0:
-        return print(number, "is Even.")
+        return(number, "is Even.")
     else:
-        return print(number, "is Odd.")
+        return(number, "is Odd.")
 
 #Here I call the main() function to execute the program.
 main()
