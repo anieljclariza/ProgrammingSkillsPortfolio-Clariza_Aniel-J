@@ -1,4 +1,4 @@
-#Here I defined the main() function wherein I saved the input of the user in the "number" variable. Then I passed  "number" into the checker() function to check if "number" is even or odd.
+#Here I defined the main() function wherein I saved the input of the user in the "number" variable. Then I passed "number" into the checker() function to check if "number" is even or odd.
 def main():
     number = int(input("Input a number: "))
     checker(number)
